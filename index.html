@@ -4,7 +4,7 @@
 	<link type="text/css" rel="stylesheet" href="styles/stylesheet.css"/>
 
 	<!-- puts an icon on the tab bar. Needs the rel attribute to work -->
-	<link href="images/new-google-favicon.png" rel="shortcut icon"/>
+	<link href="Images/new-google-favicon.png" rel="shortcut icon"/>
 	<title>My Google</title>
 </head>
 
@@ -23,18 +23,19 @@
 
 		<div id="icon_links">
 			<ul>
-				<li ><a href="#"><i><img src="images/grid.png" id="grid2"/></i></a></li>
-				<li ><a href="#"><i><img src="images/bell-circle-512.png" id="bell"/></i></a></li>
-				<li ><a href="#"><i><img src="images/id_icon.jpg" id="id_icon"/></i></a></li>
+				<li ><a href="#"><i><img src="Images/grid.png" id="grid2"/></i></a></li>
+				<li ><a href="#"><i><img src="Images/bell-circle-512.png" id="bell"/></i></a></li>
+				<li ><a href="#"><i><img src="Images/id_icon.jpg" id="id_icon"/></i></a></li>
 			</ul>
 		</div>
 		</div>
 	
 
 <div id="central_elements">
-	<div style="width: 200px;height: 200px">
+	<div> <!-- style="width: 200px;height: 200px"> -->
 		<!-- had to add svg as an onject as adding as an img causes issues in browsers-->
-		<object id="google_icon" type="image/svg+xml" data="images/Google_2015_logo.svg">Your browser does not support SVG</object>
+		<!-- <object id="google_icon" type="image/svg+xml" data="Images/Google_2015_logo.svg">Your browser does not support SVG</object> -->
+		<img src="Images/google_2015_logo.png" id="google_icon" alt="Google icon"/>
 		<div class="logo_subtext">UK</div>
 	</div>
 

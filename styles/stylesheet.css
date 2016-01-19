@@ -13,6 +13,7 @@ body {
 
 div {
 	display: block;
+	/*border: 1px dashed #949599;*/
 }
 
 
@@ -92,9 +93,11 @@ i img:hover{
 
 #google_icon {
 	position: absolute;
-  	top: 40%;
-  	left: 50%;
+  	top: 32%;
+  	left: 49.5%;
   	transform: translate(-50%, -50%);
+  	/*background-size: 300px 150px;controls size of window*/
+	width: 300px; height: 100px;
 
 }
 
@@ -107,11 +110,12 @@ i img:hover{
 }
 
 
-div object {
+/*div object {  / had to use png instead of svg as it wasn't supported /
 
-	background-size: 300px 150px;/*controls size of window*/
-	width: 300px; height: 150px;/*controls size of image*/
-}
+	background-size: 300px 150px;controls size of window
+	width: 300px; height: 150px;controls size of image
+}*/
+
 
 /*FORM*/
 
